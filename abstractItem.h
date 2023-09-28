@@ -7,6 +7,12 @@ using namespace std;
 
 class abstractItem {
 
+    // CTOR for an item
+    abstractItem(string name, string target, string affect, int numUses, int amount);
+
+    // DTOR for an item
+    virtual ~abstractItem();
+
     // The name of the item (ex. Sealing Cube)
     string name;
 
@@ -21,7 +27,7 @@ class abstractItem {
 
     // The amount by which 'affect' is applied
     int amount;
-    
+
 };
 
 #endif
