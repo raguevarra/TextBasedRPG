@@ -11,5 +11,6 @@ int main() {
     cout << sealingCube->affect << endl;
     cout << sealingCube->numUses << endl;
     cout << sealingCube->amount << endl;
-    
+
+    delete sealingCube;
 }
