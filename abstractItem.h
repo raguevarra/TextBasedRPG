@@ -1,3 +1,6 @@
+#ifndef ABSTRACTITEM_H
+#define ABSTRACTITEM_H
+
 #include <string>
 
 using namespace std;
@@ -20,3 +23,5 @@ class item {
     int amount;
     
 };
+
+#endif
