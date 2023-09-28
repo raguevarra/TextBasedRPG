@@ -7,6 +7,7 @@ using namespace std;
 
 class abstractItem {
 
+    public:
     // CTOR for an item
     abstractItem(string name, string target, string affect, int numUses, int amount);
 
